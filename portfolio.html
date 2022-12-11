@@ -26,32 +26,32 @@
     <!--шапка-->
 
     <header class="page-header">
-      <div class="container header-cont">
-        <nav class="header-nav">
-          <a href="" class="header-logo link"><span class="logo-accent">Web</span>Studio</a>
+      <div class="container page-header__cont">
+        <nav class="page-header__nav">
+          <a href="" class="logo link"><span class="logo--accent">Web</span>Studio</a>
           <ul class="site-nav list">
-            <li class="site-nav-item">
-              <a href="./index.html" class="site-nav-link link">Студія</a>
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link link">Студія</a>
             </li>
-            <li class="site-nav-item">
-              <a href="./portfolio.html" class="site-nav-link current link">Портфоліо</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link current link">Портфоліо</a>
             </li>
-            <li class="site-nav-item"><a href="" class="site-nav-link link">Контакти</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link link">Контакти</a></li>
           </ul>
         </nav>
 
         <ul class="auth-nav list">
-          <li class="auth-nav-item">
+          <li class="auth-nav__item">
             <a href="mailto:info@devstudio.com" class="cont-link link">
-              <svg width="16" height="12" class="auth-nav-icon">
+              <svg width="16" height="12" class="cont-link__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="auth-nav-item">
+          <li class="auth-nav__item">
             <a href="tel:+380961111111" class="cont-link link"
-              ><svg width="10" height="16" class="auth-nav-icon">
+              ><svg width="10" height="16" class="cont-link__icon">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -68,24 +68,24 @@
           <!--Заголовок сторінки/ приховати-->
           <h1 class="visually-hidden">Портфоліо</h1>
 
-          <ul class="list ptf-filter">
-            <li class="item"><button type="button" class="button-ptf">Усі</button></li>
-            <li class="item"><button type="button" class="button-ptf">Веб-сайти</button></li>
-            <li class="item"><button type="button" class="button-ptf">Додатки</button></li>
-            <li class="item"><button type="button" class="button-ptf">Дизайн</button></li>
-            <li class="item"><button type="button" class="button-ptf">Маркетинг</button></li>
+          <ul class="list filter">
+            <li class="item"><button type="button" class="filter__button">Усі</button></li>
+            <li class="item"><button type="button" class="filter__button">Веб-сайти</button></li>
+            <li class="item"><button type="button" class="filter__button">Додатки</button></li>
+            <li class="item"><button type="button" class="filter__button">Дизайн</button></li>
+            <li class="item"><button type="button" class="filter__button">Маркетинг</button></li>
           </ul>
 
-          <ul class="ptf-list list">
-            <li class="ptf-item">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+          <ul class="ptf list">
+            <li class="ptf__item">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.techn-min.jpg"
                     alt="Зображення співробітників у моніторі"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -94,22 +94,22 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.poster-min.jpg"
                     alt="2 баскетболіста з м'ячем"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -118,22 +118,22 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.seafood-min.jpg"
                     alt="Назва ресторану на фоні риби"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -142,18 +142,18 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img src="./images/porfolio/img.prime-min.jpg" alt="навушники" width="370" />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -162,18 +162,18 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img src="./images/porfolio/img.boxes-min.jpg" alt="2 коробки" width="370" />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -182,22 +182,22 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.inspiration-min.jpg"
                     alt="Монітор комп'ютера із зображенням мапи світу"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -206,22 +206,22 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item last-line">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item ptf__item--last-line">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.limited-min.jpg"
                     alt="розгорнута книга"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -230,22 +230,22 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item last-line">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item ptf__item--last-line">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.lab-min.jpg"
                     alt="Етикетка з надписом LAB EL TAG"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -254,22 +254,22 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="ptf-item last-line">
-              <a href="" class="link ptf-link">
-                <div class="ptf-thumb">
+            <li class="ptf__item ptf__item--last-line">
+              <a href="" class="link product-card">
+                <div class="product-card__thumb">
                   <img
                     src="./images/porfolio/img.growing-min.jpg"
                     alt="Руки, які печатають на клавіатурі ноутбука"
                     width="370"
                   />
-                  <div class="ptf-overlay">
+                  <div class="product-card__overlay">
                     <p>
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -278,9 +278,9 @@
                   </div>
                 </div>
 
-                <div class="ptf-down-block">
-                  <h2 class="ptf-title">Технокряк</h2>
-                  <p class="ptf-project">Веб-сайт</p>
+                <div class="product-card__down-block">
+                  <h2 class="product-card__title">Технокряк</h2>
+                  <p class="product-card__descr">Додаток</p>
                 </div>
               </a>
             </li>
@@ -292,66 +292,67 @@
     <footer class="foot">
       <div class="container foot-cont">
         <div class="foot-adress">
-          <a href="" class="foot-logo logo link"><span class="logo-accent">Web</span>Studio</a>
+          <a href="" class="foot__logo logo link"><span class="logo--accent">Web</span>Studio</a>
           <address>
-            <ul class="foot-address-list list">
+            <ul class="adresses list">
               <li>
-                <a href="" class="foot-address-link link">м. Київ, пр-т Лесі Українки, 26</a>
+                <a href="" class="adressess__link link">м. Київ, пр-т Лесі Українки, 26</a>
               </li>
               <li>
-                <a href="mailto:info@devstudio.com" class="foot-contakts-link link"
+                <a href="mailto:info@devstudio.com" class="adresses__cont-link link"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a href="tel:+380961111111" class="foot-contakts-link link">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="adresses__cont-link link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="foot-wellcome">
-          <h3 class="foot-title title">приєднуйтесь</h3>
-          <ul class="wellcome-list list">
-            <li class="foot-icons-item">
-              <a class="foot-soc-link" href="">
-                <svg width="20" height="20" class="foot-soc-icon">
+        <div class="offer-to-join">
+          <p class="call-to-action title">приєднуйтесь</p>
+          <ul class="soc-links list">
+            <li class="soc-links__item">
+              <a class="soc-links__link soc-links__link--dark" href="">
+                <svg width="20" height="20" class="soc-links__icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-icons-item">
-              <a class="foot-soc-link" href="">
-                <svg width="20" height="20" class="foot-soc-icon">
+            <li class="soc-links__item">
+              <a class="soc-links__link soc-links__link--dark" href="">
+                <svg width="20" height="20" class="soc-links__icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-icons-item">
-              <a class="foot-soc-link" href="">
-                <svg width="20" height="20" class="foot-soc-icon">
+            <li class="soc-links__item">
+              <a class="soc-links__link soc-links__link--dark" href="">
+                <svg width="20" height="20" class="soc-links__icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="foot-icons-item">
-              <a class="foot-soc-link" href="">
-                <svg width="20" height="20" class="foot-soc-icon">
+            <li class="soc-links__item">
+              <a class="soc-links__link soc-links__link--dark" href="">
+                <svg width="20" height="20" class="soc-links__icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="foot-form-cont">
-          <p class="foot-title title">підпишіться на розсилку</p>
+        <div class="foot__form-cont">
+          <p class="call-to-action title">підпишіться на розсилку</p>
           <form class="foot-form">
-            <label class="foot-form-lable">
-            <input type="email" name="emil" class="foot-form-input" />
-             <span class="foot-form-item">E-mail</span> </label>
-            <button type="submit" class="foot-button button">
+            <label class="foot-form__lable">
+              <input type="email" name="emil" class="foot-form__input" placeholder=" " />
+              <span class="foot-form__item">E-mail</span>
+            </label>
+            <button type="submit" class="foot__button button">
               Підписатися
-              <svg class="foot-button-icon" width="23" height="23">
+              <svg class="button-icon" width="23" height="23">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
