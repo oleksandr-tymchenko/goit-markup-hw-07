@@ -19,7 +19,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- заменяем на стили scss -->
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!--шапка-->
@@ -27,15 +29,23 @@
     <header class="page-header">
       <div class="container page-header__cont">
         <nav class="page-header__nav">
-          <a href="" class="logo link"><span class="logo--accent">Web</span>Studio</a>
+          <a href="" class="logo link"
+            ><span class="logo--accent">Web</span>Studio</a
+          >
           <ul class="site-nav list">
             <li class="site-nav__item">
-              <a href="./index.html" class="site-nav__link current link">Студія</a>
+              <a href="./index.html" class="site-nav__link current link"
+                >Студія</a
+              >
             </li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link link">Портфоліо</a>
+              <a href="./portfolio.html" class="site-nav__link link"
+                >Портфоліо</a
+              >
             </li>
-            <li class="site-nav__item"><a href="" class="site-nav__link link">Контакти</a></li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link link">Контакти</a>
+            </li>
           </ul>
         </nav>
 
@@ -64,7 +74,9 @@
 
       <section class="hero">
         <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-        <button data-modal-open type="button" class="hero__button button">Замовити послугу</button>
+        <button data-modal-open type="button" class="hero__button button">
+          Замовити послугу
+        </button>
       </section>
 
       <!-----"Переваги" (заголовок прибираэмо) ----->
@@ -81,7 +93,10 @@
               </div>
 
               <h3 class="benefits__title title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+              <p>
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
             </li>
             <li class="benefits__item">
               <div class="benefits__icons">
@@ -90,7 +105,10 @@
                 </svg>
               </div>
               <h3 class="benefits__title title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+              <p>
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
             </li>
             <li class="benefits__item">
               <div class="benefits__icons">
@@ -99,7 +117,9 @@
                 </svg>
               </div>
               <h3 class="benefits__title title">ПЛАНУВАННЯ</h3>
-              <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+              <p>
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
             </li>
             <li class="benefits__item">
               <div class="benefits__icons">
@@ -108,7 +128,10 @@
                 </svg>
               </div>
               <h3 class="benefits__title title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+              <p>
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
             </li>
           </ul>
         </div>
@@ -122,7 +145,11 @@
           <ul class="works list">
             <li class="works__item">
               <div class="works__thumb">
-                <img src="./images/img(1).jpg" alt="Людина печатає на клавіатурі" width="370" />
+                <img
+                  src="./images/img(1).jpg"
+                  alt="Людина печатає на клавіатурі"
+                  width="370"
+                />
                 <p class="works__label title">Десктопні додатки</p>
               </div>
             </li>
@@ -139,7 +166,11 @@
             </li>
             <li class="works__item">
               <div class="works__thumb">
-                <img src="./images/img(3).jpg" alt="Людина працює з планшетом" width="370" />
+                <img
+                  src="./images/img(3).jpg"
+                  alt="Людина працює з планшетом"
+                  width="370"
+                />
                 <p class="works__label title">Дизайнерські рішення</p>
               </div>
             </li>
@@ -154,9 +185,13 @@
 
           <ul class="team__list list">
             <li class="employee">
-              <img src="./images/img_igor.jpg" alt="Фото співробітника" width="270" />
+              <img
+                src="./images/img_igor.jpg"
+                alt="Фото співробітника"
+                width="270"
+              />
               <p class="employee__name">Ігор Дем'яненко</p>
-              <p class="employee__profession">Product Designer</p>
+              <p class="employee__poz">Product Designer</p>
               <ul class="soc-links list">
                 <li class="soc-links__item">
                   <a href="#" class="soc-links__link link">
@@ -186,9 +221,13 @@
               </ul>
             </li>
             <li class="employee">
-              <img src="./images/img_olga.jpg" alt="Фото співробітника" width="270" />
+              <img
+                src="./images/img_olga.jpg"
+                alt="Фото співробітника"
+                width="270"
+              />
               <p class="employee__name">Ольга Рєпіна</p>
-              <p class="employee__profession">Frontend Developer</p>
+              <p class="employee__poz">Frontend Developer</p>
               <ul class="soc-links list">
                 <li class="soc-links__item">
                   <a href="#" class="soc-links__link link">
@@ -218,9 +257,13 @@
               </ul>
             </li>
             <li class="employee">
-              <img src="./images/img_mykola.jpg" alt="Фото співробітника" width="270" />
+              <img
+                src="./images/img_mykola.jpg"
+                alt="Фото співробітника"
+                width="270"
+              />
               <p class="employee__name">Микола Тарасов</p>
-              <p class="employee__profession">Marketing</p>
+              <p class="employee__poz">Marketing</p>
               <ul class="soc-links list">
                 <li class="soc-links__item">
                   <a href="#" class="soc-links__link link">
@@ -250,9 +293,13 @@
               </ul>
             </li>
             <li class="employee">
-              <img src="./images/img_mikhajlo.jpg" alt="Фото співробітника" width="270" />
+              <img
+                src="./images/img_mikhajlo.jpg"
+                alt="Фото співробітника"
+                width="270"
+              />
               <p class="employee__name">Михайло Єрмаков</p>
-              <p class="employee__profession">UI Designer</p>
+              <p class="employee__poz">UI Designer</p>
               <ul class="soc-links list">
                 <li class="soc-links__item">
                   <a href="#" class="soc-links__link link">
@@ -337,7 +384,7 @@
         <div class="foot-adress">
           <a href="" class="foot__logo logo link"><span class="logo--accent">Web</span>Studio</a>
           <address>
-            <ul class="adressess list">
+            <ul class="adresses list">
               <li>
                 <a href="" class="adressess__link link">м. Київ, пр-т Лесі Українки, 26</a>
               </li>
@@ -386,16 +433,16 @@
             </li>
           </ul>
         </div>
-        <div class="foot-form-cont">
+        <div class="foot__form-cont">
           <p class="call-to-action title">підпишіться на розсилку</p>
           <form class="foot-form">
-            <label class="foot-form-lable">
-              <input type="email" name="emil" class="foot-form-input" placeholder=" " />
-              <span class="foot-form-item">E-mail</span>
+            <label class="foot-form__lable">
+              <input type="email" name="emil" class="foot-form__input" placeholder=" " />
+              <span class="foot-form__item">E-mail</span>
             </label>
-            <button type="submit" class="foot-button button">
+            <button type="submit" class="foot__button button">
               Підписатися
-              <svg class="foot-button-icon" width="23" height="23">
+              <svg class="button-icon" width="23" height="23">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -413,58 +460,63 @@
         <!-- FORM -->
         <form class="modal-form">
           <label class="modal-form__lable">
-            <span class="modal-form__item">Ім'я</span> 
+            <span class="modal-form__item">Ім'я</span>
             <span class="modal-form__wrapper">
-             <input type="text" name="user-name" class="modal-form__input" />
-             <svg width="18" height="18" class="modal-form__icon">
-             <use href="./images/icons.svg#icon-person-black"></use>
-             </svg>
+              <input type="text" name="user-name" class="modal-form__input" />
+              <svg width="18" height="18" class="modal-form__icon">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
             </span>
           </label>
 
-          <label class="modal-form__lable"> 
-            <span class="modal-form__item">Телефон</span> 
+          <label class="modal-form__lable">
+            <span class="modal-form__item">Телефон</span>
             <span class="modal-form__wrapper">
               <input type="tel" name="user-tel" class="modal-form__input" />
               <svg width="18" height="18" class="modal-form__icon">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-            </span> 
+            </span>
           </label>
 
-          <label class="modal-form__lable"> 
-            <span class="modal-form__item">Пошта</span> 
+          <label class="modal-form__lable">
+            <span class="modal-form__item">Пошта</span>
             <span class="modal-form__wrapper">
               <input type="email" name="user-email" class="modal-form__input" />
               <svg width="18" height="18" class="modal-form__icon">
-               <use href="./images/icons.svg#icon-email-black"></use>
+                <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </span>
-            
           </label>
           <label class="modal-form__lable">
-            
-            <span class="modal-form__item">Коментар</span> 
-            <textarea name="user-comment" placeholder="Введіть текст"
-              class="modal-form-textarea"></textarea>
-          
+            <span class="modal-form__item">Коментар</span>
+            <textarea
+              name="user-comment"
+              placeholder="Введіть текст"
+              class="modal-form-textarea"
+            ></textarea>
           </label>
-          
+
           <label class="modal-checkbox">
-            
-              <input type="checkbox" name="agree" value="" class="modal-checkbox__input" />
-              <span class="modal-checkbox__block">
-                <svg width="16" height="15" class="modal-checkbox__icon">
-                  <use href="./images/icons.svg#check"></use>
-                </svg>
-              </span>
-              Погоджуюся з розсилкою та приймаю
-              <a href="" class="modal-checkbox__link">Умови договору</a>
-          
+            <input
+              type="checkbox"
+              name="agree"
+              value=""
+              class="modal-checkbox__input"
+            />
+            <span class="modal-checkbox__block">
+              <svg width="16" height="15" class="modal-checkbox__icon">
+                <use href="./images/icons.svg#check"></use>
+              </svg>
+            </span>
+            Погоджуюся з розсилкою та приймаю
+            <a href="" class="modal-checkbox__link">Умови договору</a>
           </label>
-          <button type="submit" class="button--submit button">Відправити</button>
+          <button type="submit" class="button--submit button">
+            Відправити
+          </button>
         </form>
-        
+
         <button data-modal-close class="close-button">
           <svg width="18" height="18" class="modal-button__icon">
             <use href="./images/icons.svg#icon-close-black-modal"></use>

@@ -1,0 +1,14 @@
+.team {
+    background-color: var(--background-add);
+}
+
+.team__list {
+    display: flex;
+    flex-wrap: wrap;
+    /* -----возм нужно заменить на align-items----- */
+    text-align: center;
+    margin: -15px;
+
+    font-size: 16px;
+    line-height: 1.2;
+}
