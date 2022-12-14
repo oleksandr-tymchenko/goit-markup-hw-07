@@ -19,9 +19,7 @@
     /* display: block; */
     color: var(--main-background);
 
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: $timingCubic;
+    @extend %mainAnime;
 
     &:hover,
     &:focus {
@@ -36,9 +34,7 @@
     margin-top: 9px;
 
     color: var(--brand-color);
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: $timingCubic;
+    @extend %mainAnime;
 
     &:hover,
     &:focus {

@@ -14,10 +14,7 @@
 
     color: var(--second-color);
 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    @include font(500, 16, 1.2, 00.03em);
 }
 
 .employee__poz {

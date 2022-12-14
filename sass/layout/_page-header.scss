@@ -32,13 +32,8 @@
 
     color: var(--second-color);
 
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include font(500, null, 1.14, 00.02em);
+     @extend %mainAnime;
 }
 
 .site-nav__link:hover,
@@ -107,14 +102,7 @@
 } */
 .cont-link {
     color: var(--brand-color);
-
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %mainAnime;
 }
 
 .cont-link:hover,

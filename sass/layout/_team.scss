@@ -9,6 +9,5 @@
     text-align: center;
     margin: -15px;
 
-    font-size: 16px;
-    line-height: 1.2;
+    @include font(null, 16, 1.2, null);
 }

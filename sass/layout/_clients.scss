@@ -1,8 +1,7 @@
 .clients {
-    display: flex;
+    @extend %centering;
+    
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     gap: 30px;
 }
 
@@ -13,9 +12,7 @@
 }
 
 .client-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %centering;
 
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -24,9 +21,8 @@
     height: 100%;
     color: var(--soc-link);
 
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: $timingCubic;
+    @extend %mainAnime;
+
     &:hover,
     &:focus {
             color: var(--accent-color);

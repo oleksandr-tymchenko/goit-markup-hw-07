@@ -1,10 +1,7 @@
 .title {
     margin-bottom: 10px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700, 14, 1.14, null);
     text-transform: uppercase;
 }
 .hero__title {
@@ -13,11 +10,8 @@
     margin-left: auto;
     margin-right: auto;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-
-    letter-spacing: 0.06em;
+    @include font(900, 44, 1.36, 0.06em);
+  
     text-transform: uppercase;
 
     margin-bottom: 30px;
@@ -27,30 +21,24 @@
 
     color: var(--second-color);
 
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(null, 36, 1.17, null);
+
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .benefits__title {
     color: var(--second-color);
 }
-.ptf-title {
+.product-card__title {
     margin-bottom: 4px;
 
     color: var(--second-color);
 
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include font(null, 18, 2, 0.06em);
 }
 
 .modal__title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
+    @include font(700, 20, 1.15, null);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--second-color);
     margin-bottom: 12px;
 }

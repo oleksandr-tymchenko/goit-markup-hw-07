@@ -2,10 +2,9 @@
     margin-right: 93px;
 
     color: var(--head-logo);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    font-family: 'Raleway', sans-serif;
+    
+    @include font(700, 26, 1.2, null);
+      font-family: 'Raleway', sans-serif;
 }
 
 .logo--accent {

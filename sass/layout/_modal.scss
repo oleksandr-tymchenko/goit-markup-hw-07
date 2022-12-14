@@ -75,11 +75,7 @@ position: relative;
   display: inline-block;
   margin-bottom: 4px;
 
-  font-weight: 400;
-  
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(400, 12, 1.17, 00.01em);
 }
 .modal-form__wrapper {
   position: relative;
@@ -137,24 +133,15 @@ position: relative;
     outline: transparent;
 
   &::placeholder {
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 1.17;
-      letter-spacing: 0.01em;
+    @include font(400, 12, 1.17, 00.01em);
       color: rgba(117, 117, 117, 0.5);
     }
 }
 
 
 .modal-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @extend %centering;
+  @include font(400, 14, 1.71, null);
   color: var(--brand-color);
   margin-bottom: 30px;
   
@@ -173,15 +160,14 @@ position: relative;
   
 } 
 .modal-checkbox__block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %centering;
   margin-right: 7px;
 
   outline: 2px solid var(--second-color);
   border-radius: 2px;
 
-  transition: outline-color 250ms $timingCubic, background-color 250ms $timingCubic;
+  @extend %mainAnime;
+  transition-property: outline-color, background-color;
   cursor: pointer;
 
 }
@@ -196,12 +182,8 @@ background-color: #2196f3;
 
 .modal-checkbox__link {
   margin-left: 4px;
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
+  
+  @include font(400, 14, 1.71, null);
   color: var(--accent-color);
 }
 /* .modal-form .modal-button--send {
